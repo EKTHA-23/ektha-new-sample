@@ -1,0 +1,83 @@
+.main-proshows{
+    background: black;
+}
+
+
+.proshowfront {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .photobanner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: bannermove 10s linear infinite;
+  }
+  
+  .photobanner img {
+    margin: 0 0.5em;
+  }
+  
+  @keyframes bannermove {
+    0% {
+      translate: 0;
+    }
+    100% {
+      translate: -50%;
+    }
+  }
+  
+  
+
+
+  @font-face {
+    font-family: "sectiontitle";
+    src: url(/ethnocentric\ rg.otf);
+  }
+.protext{
+    font-family: "sectiontitle";
+    color:white;
+    font-size: 80px;
+    margin-top:30px;
+    font-weight: 400;
+}
+.guesttext{
+    font-family: "sectiontitle";
+    color:white;
+    font-size: 100px;
+    margin-bottom:30px; 
+    
+}
+  .proshowreverse {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-top:30px;
+  }
+  
+  .photobannerreverse {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: bannermovereverse 10s linear infinite;
+  }
+  
+  .photobannerreverse img {
+    margin: 0 0.5em;
+  }
+  
+  @keyframes bannermovereverse {
+    0% {
+      translate: -50%;
+    }
+    100% {
+      translate: 0%;
+    }
+  }
+  
