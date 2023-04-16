@@ -1484,8 +1484,16 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/banner3.jpg);
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_2 {
@@ -5827,6 +5835,7 @@ a {
   font-size: 2em;
   font-family: titlefont;
   padding: 10px 20px;
+  color: #FFD700;
   text-decoration: none;
 }
 
@@ -6055,7 +6064,7 @@ a {
   -webkit-animation: shine 1s infinite;
           animation: shine 1s infinite;
   background-size: 200%;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
+  /*text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);*/
 }
 
 @-webkit-keyframes shine {
@@ -6091,8 +6100,11 @@ html, body {
   position: absolute;
   font-size: 20vw;
   margin: 0;
-  font-family: "frozen", serif;
-  font-weight: 700;
+  
+    font-family: titlefont;
+    src: url(/Blanka-Regular.otf);
+  /*font-family: "frozen", serif;*/
+  font-weight: 100;
 }
 @media (max-width: 767px) {
   /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
